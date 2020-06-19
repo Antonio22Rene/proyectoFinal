@@ -6,37 +6,88 @@ public class principal {
 	{
 		// TODO Auto-generated method stub
 		
+		
+		//usuario
 		usuario usr1 = new usuario();
 		usr1.registrarse();
+		
+		//estilo dibujo
 		estiloDibujo estilo = new estiloDibujo();
 		estilo.seleccionEstilo();
+		//herencia estilo
+		estilo.getNombreUsuario();
+		
+		
+		//dispositivo
 		dispositivo dis = new dispositivo();
 		dis.seleccionDispositivo();
+		//herencia dispositivo
+		dis.getInicio();
+		dis.regresarCurso();
+		
+		//guia
 		guia g1 = new guia();
 		g1.guiaAyuda();
+		//herencia guia
+		g1.getInicio();
+		g1.regresarCurso();
+		
+		//lapiz
 		lapiz Lapiz = new lapiz();
 		Lapiz.seleccionLapiz();
+		
+		//horario
 		horario hora = new horario();
 		hora.seleccionHorario();
+		//herencia horario
+		hora.getPais();
+		
+		//tipo curso
 		curso tipo = new curso();
 		tipo.clases();
+		
+		//camara
 		camara cam = new camara();
 		cam.apagarCamara();
 		cam.encenderCamara();
+		//herencia camara
+		cam.getCelular();
+		cam.getLaptop();
+		cam.getTablet();
+		
+		//menu
 		menu m1 = new menu();
 		m1.salirCurso();
 		m1.regresarCurso();
 		m1.salirApp();
+		
+		//locacion
 		locacion lo = new locacion();
 		lo.buscarEstado();
 		lo.buscarPais();
 		lo.seleccionIdioma();
+		
+		//herencia de usuario
+		lo.getNombreUsuario();
+		
+		
+		
+		//curso
 		cursoOnline co = new cursoOnline();
 		co.comenzarCurso();
 		cursoGrabado gra = new cursoGrabado();
 		gra.comenzarVideo();
+		//herencia curso
+		co.setNombreAlumno("Antonio");
+		
+		
+		
+		//tutor
 		tutor tu = new tutor();
 		tu.comenzarClase();
+		
+		//herencia tutor
+		tu.getNombreUsuario();
 	
 		//usuario
 	usr1.setNombreUsuario("Antonio");

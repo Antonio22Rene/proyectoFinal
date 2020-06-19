@@ -1,6 +1,6 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class estiloDibujo
+public class estiloDibujo extends usuario
 {
 	private String manga;
 	private String realismo;

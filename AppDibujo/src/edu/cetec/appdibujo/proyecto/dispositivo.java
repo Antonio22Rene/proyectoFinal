@@ -1,6 +1,6 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class dispositivo 
+public class dispositivo extends menu
 {
 	private String celular;
 	private String computadora;

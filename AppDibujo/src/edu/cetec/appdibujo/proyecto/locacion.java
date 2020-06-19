@@ -1,13 +1,13 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class locacion {
+public class locacion extends usuario{
 	private String pais;
 	private String estado;
 	private String idioma;
 	
 	public locacion()
 	{
-		System.out.println("de que pais eres?");
+		System.out.println("cual es tu locacion?");
 	}
 	public void buscarPais()
 	{

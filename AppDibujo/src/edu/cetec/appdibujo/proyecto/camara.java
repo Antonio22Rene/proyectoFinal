@@ -1,6 +1,6 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class camara {
+public class camara extends dispositivo{
 	private String frontal;
 	private String trasera;
 	private int calidad;

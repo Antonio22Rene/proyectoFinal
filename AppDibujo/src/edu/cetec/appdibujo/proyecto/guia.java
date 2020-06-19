@@ -1,6 +1,6 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class guia
+public class guia extends menu
 {
 	private String respuestas;
 	private String tutorial;

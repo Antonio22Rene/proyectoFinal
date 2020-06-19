@@ -1,6 +1,6 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class tutor {
+public class tutor extends usuario{
 	private String nombre;
 	private String apellidos;
 	private int edad;

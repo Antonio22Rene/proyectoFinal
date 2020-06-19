@@ -1,6 +1,6 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class curso {
+public class curso extends usuario{
 	private String online;
 	private String grabado;
 	

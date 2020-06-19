@@ -1,6 +1,6 @@
 package edu.cetec.appdibujo.proyecto;
 
-public class horario
+public class horario extends locacion
 {
 	private String vespertino;
 	private String matutino;
